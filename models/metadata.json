@@ -1,0 +1,74 @@
+{
+  "ALPHA": {
+    "micro": [
+      0.07,
+      0.92
+    ],
+    "small": [
+      0.12,
+      0.9
+    ],
+    "medium": [
+      0.08,
+      0.91
+    ],
+    "large": [
+      0.07,
+      0.92
+    ],
+    "xlarge": [
+      0.08,
+      0.91
+    ],
+    "extreme": [
+      0.08,
+      0.93
+    ]
+  },
+  "deltas": {
+    "micro": [
+      0.0,
+      0.0
+    ],
+    "medium": [
+      0.0,
+      0.0
+    ],
+    "small": [
+      0.0,
+      0.0
+    ],
+    "large": [
+      0.0,
+      0.0
+    ],
+    "xlarge": [
+      0.0,
+      0.0
+    ],
+    "extreme": [
+      0.0,
+      0.0
+    ]
+  },
+  "EXTREME_K": 0.3,
+  "FEATURES": [
+    "Year",
+    "Week",
+    "week_sin",
+    "week_cos",
+    "Lag_1",
+    "Lag_52",
+    "doy_sin",
+    "doy_cos",
+    "Product",
+    "Deposit",
+    "UOM",
+    "CodigoTipo",
+    "CodigoRubro",
+    "month_end",
+    "quarter_end",
+    "year_end",
+    "peak_OctJan"
+  ]
+}
