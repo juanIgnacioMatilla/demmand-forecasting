@@ -28,7 +28,6 @@ def predict(q: Query):
         # por ejemplo "No hay histórico para..."
         raise HTTPException(status_code=404, detail=str(e))
     return {
-        "bucket": res.get("bucket"),
         "p10":     res["p10"],
         "p50":     res["p50"],
         "p90":     res["p90"]
